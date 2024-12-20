@@ -5,6 +5,7 @@ export interface Comic {
   synopsis: string;
   category: string;
   publisher: string;
+  collections: string;
   location: {
     lat: number;
     lng: number;
@@ -13,4 +14,5 @@ export interface Comic {
   price: number;
   isNew: boolean;
   publishedDate: string;
+  pages: number;
 }

@@ -43,7 +43,7 @@ export function RandomComic() {
                 <span className="text-2xl font-bold text-indigo-600">
                   {randomComic.price}€
                 </span>
-                <button className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700">
+                <button type="button" className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700">
                   Ajouter au panier
                 </button>
               </div>

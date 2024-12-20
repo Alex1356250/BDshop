@@ -22,8 +22,8 @@ function App() {
               <Route path="/" element={
                 <>
                   <SearchModule />
-                  <NewReleases />
                   <RandomComic />
+                  <NewReleases />
                   <Newsletter />
                 </>
               } />
