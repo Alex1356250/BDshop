@@ -34,7 +34,7 @@ export function RandomComic() {
               <h3 className="mt-1 text-2xl font-semibold text-gray-900">
                 {randomComic.title}
               </h3>
-              <p className="mt-2 text-gray-500">{randomComic.synopsis}</p>
+              <p className="mt-2 text-gray-500">{randomComic.synopsis.substring(0,200)} ...</p>
               <div className="mt-4">
                 <span className="text-gray-600">Édition: </span>
                 <span className="font-medium">{randomComic.publisher}</span>

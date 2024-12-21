@@ -9,10 +9,11 @@ import { Footer } from './components/Footer';
 import { Cart } from './components/Cart';
 import { Admin } from './components/Admin';
 import { ComicsProvider } from './context/ComicsContext';
+import { BasketProvider } from "./context/BasketContext";
 
 function App() {
   return (
-    <ComicsProvider>
+    <ComicsProvider>    <BasketProvider>
       <Router>
         <div className="min-h-screen flex flex-col">
           <Header />
@@ -37,7 +38,7 @@ function App() {
           <Footer />
         </div>
       </Router>
-    </ComicsProvider>
+    </BasketProvider></ComicsProvider> 
   );
 }
 

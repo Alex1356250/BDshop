@@ -29,7 +29,7 @@ export function Header() {
             <Link to="/" className="hover:text-indigo-200">Accueil</Link>
             <Link to="/search" className="hover:text-indigo-200">Rechercher</Link>
             <Link to="/nouveautes" className="hover:text-indigo-200">Nouveautés</Link>
-            <Link to="/admin" className="hover:text-indigo-200">Administration</Link>
+            <Link to="/admin" className="hover:text-indigo-200">Admin</Link>
             <Link to="/cart" className="relative hover:text-indigo-200">
               <ShoppingCart className="h-6 w-6" />
               {cartItems.length > 0 && (
@@ -47,7 +47,7 @@ export function Header() {
             <Link to="/" className="block hover:text-indigo-200">Accueil</Link>
             <Link to="/search" className="block hover:text-indigo-200">Rechercher</Link>
             <Link to="/nouveautes" className="block hover:text-indigo-200">Nouveautés</Link>
-            <Link to="/admin" className="block hover:text-indigo-200">Administration</Link>
+            <Link to="/admin" className="block hover:text-indigo-200">Admin</Link>
             <Link to="/cart" className="block hover:text-indigo-200">
               Panier ({cartItems.length})
             </Link>
